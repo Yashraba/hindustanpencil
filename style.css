@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-bar img{
+  width: 15%;
+}
+.nav-bar ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-bar ul li a{
+  font-size: o.5em;
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+.nav-bar ul li:hover{
+  background-color:orangered;
+}
+.img-part{
+  width: 10%;
+  background-image: url(./natarj-bg-image-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section2{
+  width: 100%;
+  height: 30vh;
+  background-image: url(./home-page-1925x519-1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 img{
+  width: 45%;
+  background-position: center;
+  background-size: cover;
+}
+.section3{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.left{
+  width: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  margin: 20px;
+}
+.box1{
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+.left h4{
+  font-size: 1.5em;
+  border-bottom: 2px solid orangered;
+
+
+}
+
+
+
+.left p{
+  font-size: 1em;
+  color: gray;
+  margin-top: 10px;
+}
+.box1 button{
+  margin-top: 10px;
+  width:25%;
+  height: 45px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
+
+
+.right{
+  width: 50%;
+  margin: 20px;
+  
+}
+.box{
+  width: 60%;
+  height: 200px;
+  background-color: black;
+  background-image: url(./hqdefault.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cont3{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left1{
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #EBECF0;
+}
+.left1 img{
+  width: 60%;
+  border: 15px solid #EBECF0;
+  position: relative;
+  right: -50px;
+}
+.right1{
+  width: 50%;
+  height:40vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #ED1B24;
+  padding: 70px;
+  padding-right: 30px;
+}
+.right1 h2{
+  font-size:2em;
+  font-weight: bold;
+  color: white;
+}
+.right1 p{
+  font-size: 0.9em;
+  font-weight: lighter;
+  color: white;
+  margin-top: 10px;
+  
+}
+.right1 button{
+  padding: 8px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+#c4{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.left2{
+  width: 50%;
+  height: 40vh;
+  background-color:#029EAD;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-right: 80px;
+  
+  
+  
+
+}
+.left2 img{
+  width: 35%;
+}
+.left2 p{
+  font-size: 0.9em;
+  font-weight: lighter;
+  color: white;
+  
+  
+}
+.left2 button{
+  padding: 8px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.right2{
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #EBECF0;
+}
+.right2 img{
+  width: 60%;
+  border: 15px solid #EBECF0;
+  position: relative;
+  left: -50px;
+}
+#c5 .right1 img{
+  width: 25%;
+
+}
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  padding: 15px;
+}
+.footer p{
+  color: rgb(39, 38, 38);
+
+}
+.footer a{
+  text-decoration: none;
+  color: orangered;
+}
+
+
+
+/*resonsive code for 768*/
+@media (max-width:768px) {
+  .nav-bar{
+      width: 100%;
+  }
+  .section2{
+      width: 100%;
+  }
+  .section3{
+      width: 100%;
+  }
+  .cont3{
+      width: 100%;
+  }
+  .cont3 p br{
+      display: none;
+  }
+  #c4{
+      width: 100%;
+  }
+  #c4 p br{
+      display: none;
+  
+  }
+  #c4 p{
+      margin: 10px;
+  }
+  
+
+  #c5{
+      width: 100%;
+  }
+  #c5 p br{
+      display: none;
+  }
+  
+}
+
+
